@@ -21,20 +21,19 @@ $dbname = "jackstra_Homework4";
                 . mysqli_connect_error());
         }
          
-        // Taking all 5 values from the form data(input)
-        $custid =  $_REQUEST['custID'];
-        $first_name = $_REQUEST['firstName'];
-        $ManufacturerName =  $_REQUEST['ManufacturerName'];
-        $manufacturerID = $_REQUEST['manufacturerID'];
-        $productName = $_REQUEST['productName'];
-        $productID =  $_REQUEST['productID'];
-        $shipping = $_REQUEST['shipping'];
-        $tax = $_REQUEST['tax'];
-        $quantity = $_REQUEST['quantity'];
-        $saleid =  $_REQUEST['saleid'];
-        $saleprice = $_REQUEST['saleprice'];
-        // Performing insert query execution
-        // here our table name is college
+       
+        $custid =  $POST['custID'];
+        $first_name = $POST['firstName'];
+        $ManufacturerName =  $POST['ManufacturerName'];
+        $manufacturerID = $POST['manufacturerID'];
+        $productName = $POST['productName'];
+        $productID =  $POST['productID'];
+        $shipping = $POST['shipping'];
+        $tax = $POST['tax'];
+        $quantity = $POST['quantity'];
+        $saleid =  $POST['saleid'];
+        $saleprice = $POST['saleprice'];
+        
         $sql = "INSERT INTO Customer (CustomerID, FirstName) VALUES ('$custid',
             '$first_name')";
          $sql1 = "INSERT INTO Manufacturer  VALUES ('$manufacturerID',
