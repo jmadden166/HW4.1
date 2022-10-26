@@ -6,8 +6,7 @@
    <body>
       <center>
          <h1>Storing Form data in Database</h1>
-         <button class="open-button" onclick="openForm()">Add a User</button>
-<div class="form-popup" id="myForm">
+
          <form action="insert.php" method="post">
              
 <p>
