@@ -134,4 +134,5 @@
       </center>
    </body>
 <a href="delete.php">Delete Data</a> 
+<a href="edit.php">Edit Data</a> 
 </html>
