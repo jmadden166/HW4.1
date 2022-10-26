@@ -6,9 +6,6 @@
    <body>
       <center>
          <h1>Storing Form data in Database</h1>
-<button class="open-button" onclick="openForm()">Open Form</button>
-         <div class="form-popup" id="myForm">
-            <h1>Insert data</h1>
          <form action="insert.php" method="post">
              
 <p>
@@ -63,12 +60,10 @@
                <label for="saleprice">Sale Price:</label>
                <input type="text" name="saleprice" id="saleprice">
             </p>  
-            <button type="submit" class="btn">Input Data</button>
-             <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            <input type="submit" value="Submit">
          </form>
  <style>
     {box-sizing: border-box;}
-
 /* Button used to open the contact form - fixed at the bottom of the page */
 .open-button {
   background-color: #555;
@@ -82,7 +77,6 @@
   right: 28px;
   width: 280px;
 }
-
 /* The popup form - hidden by default */
 .form-popup {
   display: none;
@@ -92,14 +86,12 @@
   border: 3px solid #f1f1f1;
   z-index: 9;
 }
-
 /* Add styles to the form container */
 .form-container {
   max-width: 300px;
   padding: 10px;
   background-color: white;
 }
-
 /* Full-width input fields */
 .form-container input[type=text], .form-container input[type=password] {
   width: 100%;
@@ -108,13 +100,11 @@
   border: none;
   background: #f1f1f1;
 }
-
 /* When the inputs get focus, do something */
 .form-container input[type=text]:focus, .form-container input[type=password]:focus {
   background-color: #ddd;
   outline: none;
 }
-
 /* Set a style for the submit/login button */
 .form-container .btn {
   background-color: #04AA6D;
@@ -126,13 +116,11 @@
   margin-bottom:10px;
   opacity: 0.8;
 }
-
 /* Add a red background color to the cancel button */
 .form-container .cancel {
   background-color: red;
 }
    </style>
-
      </div>
       </center>
    </body>
