@@ -6,7 +6,7 @@
    <body>
       <center>
          <h1>Delete Form data in Database</h1>
-         <form action="delete2.php" method="post">
+         <form action="edit2.php" method="post">
              
  
              
