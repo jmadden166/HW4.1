@@ -49,8 +49,7 @@ $dbname = "jackstra_Homework4";
             echo "<h3>Customer data stored in a database successfully."
                 . " Please browse your localhost php my admin"
                 . " to view the updated data</h3>";
- 
-            echo nl2br("\n$first_name");
+
         } else{
             echo "ERROR: Hush! Sorry $sql. "
                 . mysqli_error($conn);
