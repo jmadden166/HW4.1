@@ -22,17 +22,17 @@ $dbname = "jackstra_Homework4";
         }
          
        
-        $custid =  $POST['custID'];
-        $first_name = $POST['firstName'];
-        $ManufacturerName =  $POST['ManufacturerName'];
-        $manufacturerID = $POST['manufacturerID'];
-        $productName = $POST['productName'];
-        $productID =  $POST['productID'];
-        $shipping = $POST['shipping'];
-        $tax = $POST['tax'];
-        $quantity = $POST['quantity'];
-        $saleid =  $POST['saleid'];
-        $saleprice = $POST['saleprice'];
+        $custid =  $_POST['custID'];
+        $first_name = $_POST['firstName'];
+        $ManufacturerName =  $_POST['ManufacturerName'];
+        $manufacturerID = $_POST['manufacturerID'];
+        $productName = $_POST['productName'];
+        $productID =  $_POST['productID'];
+        $shipping = $_POST['shipping'];
+        $tax = $_POST['tax'];
+        $quantity = $_POST['quantity'];
+        $saleid =  $_POST['saleid'];
+        $saleprice = $_POST['saleprice'];
         
         $sql = "INSERT INTO Customer (CustomerID, FirstName) VALUES ('$custid',
             '$first_name')";
