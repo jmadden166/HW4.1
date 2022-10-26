@@ -55,7 +55,16 @@ $dbname = "jackstra_Homework4";
             echo "ERROR: Hush! Sorry $sql. "
                 . mysqli_error($conn);
         }
-         
+         if(mysqli_query($conn, $sql1)){
+            echo "<h3>data 1 stored in a database successfully."
+                . " Please browse your localhost php my admin"
+                . " to view the updated data</h3>";
+ 
+            echo nl2br("\n$manufacturer1");
+        } else{
+            echo "ERROR: Hush! Sorry $sql. "
+                . mysqli_error($conn);
+        }
         // Close connection
         mysqli_close($conn);
         ?>
