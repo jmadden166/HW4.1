@@ -136,4 +136,5 @@ function closeForm() {
    </body>
 <a href="delete.php">Delete Data</a> 
 <a href="edit.php">Edit Data</a> 
+   <a href="tables.php">Look at All of the Data</a> 
 </html>
