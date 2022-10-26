@@ -23,11 +23,11 @@ $dbname = "jackstra_Homework4";
          
        
         $custid =  $_POST['custID'];
-        $first_name = $_POST['firstName'];
-        $ManufacturerName =  $_POST['ManufacturerName'];
-        $manufacturerID = $_POST['manufacturerID'];
-        $productName = $_POST['productName'];
-        $productID =  $_POST['productID'];
+        $first_name = $_POST['first_name'];
+        $ManufacturerName =  $_POST['manufacturername'];
+        $manufacturerID = $_POST['manufacturerid'];
+        $productName = $_POST['productname'];
+        $productID =  $_POST['productid'];
         $shipping = $_POST['shipping'];
         $tax = $_POST['tax'];
         $quantity = $_POST['quantity'];
