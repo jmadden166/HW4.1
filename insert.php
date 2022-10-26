@@ -36,13 +36,13 @@ $dbname = "jackstra_Homework4";
         
         $sql = "INSERT INTO Customer (CustomerID, FirstName) VALUES ('$custid',
             '$first_name')";
-         $sql1 = "INSERT INTO Manufacturer  VALUES ('$manufacturerID',
+         $sql1 = "INSERT INTO Manufacturer (ManufacturerID, ManufacturerName) VALUES ('$manufacturerID',
             '$ManufacturerName')";
-         $sql2 = "INSERT INTO Product  VALUES ('$productID',
+         $sql2 = "INSERT INTO Product (ProductID, ProductName) VALUES ('$productID',
             '$productName')";
-         $sql3 = "INSERT INTO Sale  VALUES ('$shipping',
+         $sql3 = "INSERT INTO Sale (Shipping, Tax) VALUES ('$shipping',
             '$tax')";
-         $sql4 = "INSERT INTO SaleItem  VALUES ('$quantity','$saleid',
+         $sql4 = "INSERT INTO SaleItem (Quantity, SaleID, SalePrice) VALUES ('$quantity','$saleid',
             '$saleprice')";
          
         if(mysqli_query($conn, $sql)){
