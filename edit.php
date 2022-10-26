@@ -40,7 +40,7 @@
             </p>
               <p>
                <label for="saleid"> Update Orders with this Sale ID:</label>
-               <input type="text" name="saleid1" id="saleid">
+               <input type="text" name="saleid3" id="saleid">
                    <p>
                <label for="saleprice">What is the new sale price for these orders?:</label>
                <input type="text" name="saleprice2" id="saleprice2">
