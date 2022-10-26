@@ -133,4 +133,5 @@
      </div>
       </center>
    </body>
+<a href="delete.php">Delete Data</a> 
 </html>
