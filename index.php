@@ -64,7 +64,7 @@
             </p>  
             <input type="submit" value="Submit">
          </form>
- 
+ <style>
     {box-sizing: border-box;}
 
 /* Button used to open the contact form - fixed at the bottom of the page */
@@ -129,7 +129,8 @@
 .form-container .cancel {
   background-color: red;
 }
-
+   </style>
+   <script>
 /* Add some hover effects to buttons */
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
@@ -141,6 +142,7 @@
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
 } 
+   </script>
      </div>
       </center>
    </body>
