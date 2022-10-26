@@ -12,7 +12,7 @@
              
 <p>
                <label for="firstName">Delete a Customer with this First Name:</label>
-               <input type="text" name="first_name" id="firstName">
+               <input type="text" name="first_name1" id="firstName">
             </p>
  
              
@@ -20,17 +20,17 @@
              
 <p>
                <label for="manufacturerID">Delete Orders with this Manufacturer ID:</label>
-               <input type="text" name="manufacturerid" id="manufacturerID">
+               <input type="text" name="manufacturerid1" id="manufacturerID">
             </p>
  
              
  <p>
                <label for="productID"> Delete Orders with this Product ID:</label>
-               <input type="text" name="productid" id="productID">
+               <input type="text" name="productid1" id="productID">
             </p>      
               <p>
                <label for="saleid"> Delete Orders with this Sale ID:</label>
-               <input type="text" name="saleid" id="saleid">
+               <input type="text" name="saleid1" id="saleid">
             <input type="submit" value="Submit">
          </form>
              </div>
