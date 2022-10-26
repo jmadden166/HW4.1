@@ -46,7 +46,7 @@ $dbname = "jackstra_Homework4";
             '$saleprice')";
          
         if(mysqli_query($conn, $sql)){
-            echo "<h3>data stored in a database successfully."
+            echo "<h3>Customer data stored in a database successfully."
                 . " Please browse your localhost php my admin"
                 . " to view the updated data</h3>";
  
@@ -56,11 +56,37 @@ $dbname = "jackstra_Homework4";
                 . mysqli_error($conn);
         }
          if(mysqli_query($conn, $sql1)){
-            echo "<h3>data 1 stored in a database successfully."
+            echo "<h3>Manufacturer Data stored in a database successfully."
                 . " Please browse your localhost php my admin"
                 . " to view the updated data</h3>";
  
-            echo nl2br("\n$manufacturer1");
+        } else{
+            echo "ERROR: Hush! Sorry $sql. "
+                . mysqli_error($conn);
+        }
+     if(mysqli_query($conn, $sql2)){
+            echo "<h3>Product Data stored in a database successfully."
+                . " Please browse your localhost php my admin"
+                . " to view the updated data</h3>";
+ 
+        } else{
+            echo "ERROR: Hush! Sorry $sql. "
+                . mysqli_error($conn);
+        }
+     if(mysqli_query($conn, $sql3)){
+            echo "<h3>Sale Data stored in a database successfully."
+                . " Please browse your localhost php my admin"
+                . " to view the updated data</h3>";
+ 
+        } else{
+            echo "ERROR: Hush! Sorry $sql. "
+                . mysqli_error($conn);
+        }
+     if(mysqli_query($conn, $sql4)){
+            echo "<h3>Sale Item Data stored in a database successfully."
+                . " Please browse your localhost php my admin"
+                . " to view the updated data</h3>";
+ 
         } else{
             echo "ERROR: Hush! Sorry $sql. "
                 . mysqli_error($conn);
