@@ -35,7 +35,7 @@ $dbname = "jackstra_Homework4";
         $saleprice = $_REQUEST['saleprice'];
         // Performing insert query execution
         // here our table name is college
-        $sql = "INSERT INTO Customer (CustomerID, FirstName) VALUES ('$cust_id',
+        $sql = "INSERT INTO Customer (CustomerID, FirstName) VALUES ('$custid',
             '$first_name')";
          $sql1 = "INSERT INTO Manufacturer  VALUES ('$manufacturerID',
             '$ManufacturerName')";
