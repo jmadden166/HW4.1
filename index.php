@@ -6,7 +6,9 @@
    <body>
       <center>
          <h1>Storing Form data in Database</h1>
-
+<button class="open-button" onclick="openForm()">Open Form</button>
+         <div class="form-popup" id="myForm">
+            <h1>Insert data</h1>
          <form action="insert.php" method="post">
              
 <p>
@@ -61,7 +63,8 @@
                <label for="saleprice">Sale Price:</label>
                <input type="text" name="saleprice" id="saleprice">
             </p>  
-            <input type="submit" value="Submit">
+            <button type="submit" class="btn">Input Data</button>
+             <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
          </form>
  <style>
     {box-sizing: border-box;}
