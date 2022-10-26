@@ -24,7 +24,7 @@ $dbname = "jackstra_Homework4";
        
         $custid =  $_POST['custID'];
         $first_name = $_POST['first_name'];
-        $Manufacturer1 =  $_POST['manufacturername'];
+        $manufacturer1 =  $_POST['manufacturername'];
         $manufacturerID = $_POST['manufacturerid'];
         $productName = $_POST['productname'];
         $productID =  $_POST['productid'];
@@ -37,7 +37,7 @@ $dbname = "jackstra_Homework4";
         $sql = "INSERT INTO Customer (CustomerID, FirstName) VALUES ('$custid',
             '$first_name')";
          $sql1 = "INSERT INTO Manufacturer (ManufacturerID, ManufacturerName) VALUES ('$manufacturerID',
-            '$Manufacturer1')";
+            '$manufacturer1')";
          $sql2 = "INSERT INTO Product (ProductID, ProductName) VALUES ('$productID',
             '$productName')";
          $sql3 = "INSERT INTO Sale (Shipping, Tax) VALUES ('$shipping',
