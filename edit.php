@@ -75,7 +75,13 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 </style>
 </head>
-      
+      <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="drivers.php">Current Drivers</a></li>
+            <li><a class="dropdown-item" href="Past.html">Race Results</a></li>
+            <li><a class="dropdown-item" href="races.html">Upcoming Races</a></li>
+            <li><a class="dropdown-item" href="Standings.html">Current Standings</a></li>
+          <li><a class="dropdown-item" href="admin.php">Admin Window</a></li>
+        </ul>
    <body>
       <center>
          <h1>Edit Form data in Database</h1>
